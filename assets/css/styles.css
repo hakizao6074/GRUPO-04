@@ -72,8 +72,11 @@ body{
 ul.breadcrumb {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+
 }
 
 ul.breadcrumb li {display: inline;} 
