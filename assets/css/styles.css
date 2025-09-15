@@ -317,3 +317,49 @@ ul.breadcrumb li a:hover {
 /* dadinho */
 
 
+
+
+
+
+
+.section-1 {
+    display: flex;
+    background-color: #dbdbe7;
+    height: 500px;
+    padding: 80px;
+    justify-content: space-between;
+    
+
+}
+
+.logo {
+    text-align: left;
+    padding: 20px;
+    width: 400px;
+    text-decoration: dotted;
+}
+
+
+footer {
+    display: flex;
+    background-color: #01013e;
+    width: 100%;
+    height: 70px;
+    color: #dbdbe7;
+    align-items: center;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+.cartoes {
+    display: flex;
+    background-color: #dbdbe7;
+    border-radius: 20px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
