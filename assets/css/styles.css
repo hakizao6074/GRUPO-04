@@ -175,7 +175,7 @@ main{
 }
 
 
-.explore-section{
+.nav{
     background-color: white;
     width: 100%;
     height: auto;
@@ -210,14 +210,11 @@ main{
     }
 }
 
-    
-    
-
 }
+    
 
 
 
-}
 
 
 
@@ -226,60 +223,51 @@ main{
 
 .imagens{
     background-color: white;
-    padding: 5px;
+    padding: 3px;
     display: flex;
+    width: 100%;
+    height: auto;
     align-items: center;
     justify-content: center;
-    width: 100%;
     
     .font{
         text-align: center;
-        font-size: 17px;
+        font-size: 12px;
         font-weight: bold;
         display: flex;
         align-items: center; /* Alinha verticalmente com a imagem */
         justify-content: center;
+        flex-wrap: nowrap;
+        height: 100%;
+        width: auto;
         
         h2{
             transform: rotate(-90deg); /* Mantém o texto paralelo à imagem, girado */
         }
 
-        img{
-            width: 500px;
-            height: 500px;
-            object-fit: cover;
-            margin-right: 5px;
-        }
     }
     
-    .photos{
-
-        display: flex;
-        width: 510px;
-        height: 510px;
-        flex-wrap: wrap;
-        gap: 10px;
-        
-        img{
-            width: 240px;
-            height: 240px;
+    .photos img{
+            width: 75%;
+            height: auto;
             object-fit: cover;
             
-        }
+        
     }
 }
 
-    
-    
-    
-    
-    
-    
-    
+}
+
 
     
     
     
+
+
+
+
+
+
 
 
 
