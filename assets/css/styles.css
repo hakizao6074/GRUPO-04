@@ -1,4 +1,5 @@
 *{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,9 +16,9 @@ body{
 /* teteu */
 
 header {
-    background-color: #33333312;
+    background-color: #33333309;
     padding: 0;
-    padding-top: 20px;
+    padding-top: 25px;
 
         .all{
             width: 100%;
@@ -65,10 +66,17 @@ header {
             margin-right: 3px;
         }
         
-        .info .shopping img{
-                height: 20px;
-            }
     }
+    .info{
+            object-fit: cover;
+            display: flex;
+            align-items: center;
+
+            a:nth-child(2) img{
+                height: 22px;
+                vertical-align: calc(-4px);
+            }
+        }
 }
 
 
@@ -80,18 +88,19 @@ main{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 400px;
-
-        width: 100%;
-        height: auto;
+        height: 500px;
         padding: 0;
         margin: 0;
         
         
-        nav ul{
+        nav{
+            text-align: center;            
+            vertical-align: middle;
+
+            ul{
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-evenly;
             margin-bottom: 15px;
             width: 100%;
             
@@ -102,22 +111,23 @@ main{
             }
             
             a{
-            font-size: 12px;
-            text-decoration: none;
-            color: #333333cf;
-            margin-left: 2px;
+                font-size: 12px;
+                text-decoration: none;
+                color: #333333cf;
+                margin-left: 2px;
             font-weight: bold;
         }
     }
+} 
 
     
     
     .collection {
 
         display: flex;
-        gap: 20px;
         justify-content: space-evenly;
-
+        padding-top: 20px;
+        align-items: center;
 
         .shop{
             display: flex;
@@ -155,8 +165,8 @@ main{
 
 
     .img{
-        width: 200px;
-        height: 320px;
+        width: 300px;
+        height: 420px;
         margin-bottom: 20px;
         padding: 10px;
         border-radius: 5px;
@@ -164,8 +174,8 @@ main{
 
         img{
             transform: rotateY(180deg);
-            width: 200px;
-            height: 320px;
+            width: 300px;
+            height: 420px;
             border-radius: 5px;
             object-fit: cover;
         }
@@ -175,7 +185,7 @@ main{
 }
 
 
-.explore-section{
+.nav{
     background-color: white;
     width: 100%;
     height: auto;
@@ -210,76 +220,55 @@ main{
     }
 }
 
-    
-    
-
 }
-
-
-
-}
-
-
-
+    
 
 
 
 .imagens{
     background-color: white;
-    padding: 5px;
+    padding: 3px;
     display: flex;
+    width: 100%;
+    height: auto;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    
-    .font{
-        text-align: center;
-        font-size: 17px;
-        font-weight: bold;
-        display: flex;
-        align-items: center; /* Alinha verticalmente com a imagem */
-        justify-content: center;
-        
-        h2{
-            transform: rotate(-90deg); /* Mantém o texto paralelo à imagem, girado */
-        }
 
-        img{
-            width: 500px;
-            height: 500px;
-            object-fit: cover;
-            margin-right: 5px;
-        }
-    }
     
-    .photos{
-
-        display: flex;
-        width: 510px;
-        height: 510px;
-        flex-wrap: wrap;
-        gap: 10px;
+    img{
+        width: 75%;
+        height: auto;
+        object-fit: cover;
         
-        img{
-            width: 240px;
-            height: 240px;
-            object-fit: cover;
-            
-        }
     }
+
+    
 }
 
-    
-    
-    
-    
-    
-    
-    
+.imagens::before{
+    content: "EXPLORE NEW AND POPULAR STYLES";
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 14px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    background-color: white;
+    padding: 10px;
+    z-index: 2;
+}
+
+}
+
 
     
     
     
+
+
+
+
+
+
 
 
 
@@ -445,6 +434,11 @@ footer {
     align-items: center;
     justify-content:space-around;
     padding: 20px;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .cartoes {
