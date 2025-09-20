@@ -384,7 +384,6 @@ ul.breadcrumb li a:hover {
 /* lulu */
 
 .bestsell{
-    background-color: antiquewhite;
     h2{
         text-align: center;
         padding: 20px;
@@ -399,6 +398,31 @@ ul.breadcrumb li a:hover {
        align-self: flex-end;
     }
     
+
+}
+
+.cbests{
+    display: flex;
+    justify-content: center;
+    gap: 470px;
+
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 22px;
+        color: white;
+        background-color: black;
+    }
+
+}
+
+.listabest{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
 }
 
 .imgbes{
@@ -458,8 +482,8 @@ ul.breadcrumb li a:hover {
     overflow: hidden;
     img{
         margin-top: 70px;
-        margin-right: 10px;
-        
+        width: 200px;
+        height: 200px;
      }
 
 }
