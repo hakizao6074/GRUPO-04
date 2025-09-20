@@ -383,7 +383,86 @@ ul.breadcrumb li a:hover {
 
 /* lulu */
 
+.bestsell{
+    background-color: antiquewhite;
+    h2{
+        text-align: center;
+        padding: 20px;
+    }
 
+    p{
+       display: flex;
+       justify-content: center;
+    }
+    button{
+       display:flex;
+       align-self: flex-end;
+    }
+    
+}
+
+.imgbes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.vesver, .bolsa, .hoodamare, .tennis{
+    flex-direction: row;
+    justify-content: center;
+    
+    background-color: tomato;
+    width: 200px;
+    height: 300px;
+
+    img{
+        width: 150px;
+        height: 150px;
+    }
+
+
+}
+
+.hoodamare{
+    overflow: hidden;
+    img{
+        width: 250px;
+        height: 310px;
+    }
+
+}
+.bolsa{
+    overflow: hidden;
+    img{
+        margin-top: 10px;
+        width: 180px;
+        height: 270px;
+     }
+    }
+
+
+.vesver{
+
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+     img{
+        margin-top: 20px;
+        width: 350px;
+        height: 400px;
+     }
+}
+
+.tennis{
+    overflow: hidden;
+    img{
+        margin-top: 70px;
+        margin-right: 10px;
+        
+     }
+
+}
 
 
 
