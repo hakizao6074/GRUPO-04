@@ -115,7 +115,11 @@ main{
                 text-decoration: none;
                 color: #333333cf;
                 margin-left: 2px;
-            font-weight: bold;
+                font-weight: bold;
+
+                &:hover{
+                    text-decoration-line: underline;
+                }
         }
     }
 } 
@@ -299,7 +303,20 @@ main{
 }
 
     
+@media (max-width: 800px) {
+    .main-section span{
+        display: none;
+    }
     
+}
+
+@media (max-width: 920px) {
+    .main-section li{
+        margin-top: 5px;
+        line-height: 15px;
+    }
+
+}
     
 
 
