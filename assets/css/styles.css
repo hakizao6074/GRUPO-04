@@ -430,6 +430,7 @@ ul.breadcrumb li a:hover {
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    
 }
 
 .vesver, .bolsa, .hoodamare, .tennis{
@@ -440,18 +441,11 @@ ul.breadcrumb li a:hover {
     width: 200px;
     height: 300px;
 
-    img{
-        width: 150px;
-        height: 150px;
-    }
-
-
 }
 
 .hoodamare{
     overflow: hidden;
     img{
-        width: 250px;
         height: 310px;
     }
 
@@ -487,26 +481,6 @@ ul.breadcrumb li a:hover {
      }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
