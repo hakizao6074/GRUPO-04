@@ -437,13 +437,13 @@ ul.breadcrumb li a:hover {
     flex-direction: row;
     justify-content: center;
     
-    background-color: tomato;
     width: 190px;
     height:300px;
 
 }
 
 .hoodamare{
+    background-color: rgb(240, 240, 245);
     display: flex;
     align-items: center; 
     img{
@@ -452,6 +452,7 @@ ul.breadcrumb li a:hover {
 
 }
 .bolsa{
+    background-color: rgb(235, 235, 235);
     img{
         width: 200px;
         height: 300px;
@@ -460,7 +461,7 @@ ul.breadcrumb li a:hover {
 
 
 .vesver{
-
+    background-color: rgb(240, 240, 245);
     display: flex;
     justify-content: center;
      img{
@@ -470,6 +471,7 @@ ul.breadcrumb li a:hover {
 }
 
 .tennis{
+    background-color: rgb(235, 235, 235);
     display: flex;
     align-items: center; 
     img{
@@ -499,10 +501,48 @@ ul.breadcrumb li a:hover {
 
 
 
+.itensbest {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 200px;
 
+    p {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
 
+.catbst {
+    color: grey;
+}
+.catbest{
+    color: grey;
+    font-size: 12px;
+    margin-top: 10px;
+}
 
+.catpbest {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 5px;
+}
 
+.catbsti {
+    color: grey;
+    font-size: 12px;
+    position: relative;
+    left: 20px;
+}
+
+.precobst {
+    position: relative;
+    right: 11px;
+    font-weight: bold;
+    color: rgb(233, 99, 9);
+}
 
 
 
