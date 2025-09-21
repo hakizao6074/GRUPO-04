@@ -438,24 +438,23 @@ ul.breadcrumb li a:hover {
     justify-content: center;
     
     background-color: tomato;
-    width: 200px;
-    height: 300px;
+    width: 190px;
+    height:300px;
 
 }
 
 .hoodamare{
-    overflow: hidden;
+    display: flex;
+    align-items: center; 
     img{
-        height: 310px;
+        height: 300px;
     }
 
 }
 .bolsa{
-    overflow: hidden;
     img{
-        margin-top: 10px;
-        width: 180px;
-        height: 270px;
+        width: 200px;
+        height: 300px;
      }
     }
 
@@ -464,27 +463,39 @@ ul.breadcrumb li a:hover {
 
     display: flex;
     justify-content: center;
-    overflow: hidden;
      img{
-        margin-top: 20px;
-        width: 350px;
-        height: 400px;
+        width: 250px;
+        height: 300px;
      }
 }
 
 .tennis{
-    overflow: hidden;
+    display: flex;
+    align-items: center; 
     img{
-        margin-top: 70px;
-        width: 200px;
-        height: 200px;
+        width: 210px;
+        height: 300px;
      }
 
 }
 
 
-
-
+.disc_imgbest {
+    display: flex;
+    justify-content: center;
+    ul {
+        display: flex;     
+        gap: 40px;         
+        list-style: none;   
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        text-align: center;
+        font-size: 14px;
+    }
+}
 
 
 
