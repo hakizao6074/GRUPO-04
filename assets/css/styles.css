@@ -64,12 +64,6 @@ header {
         }
         
         
-        a{
-            text-decoration: none;
-            color: #333;
-            margin-left: 2px;
-            font-weight: bold;
-        }
         
         img{
             height: 15px;
@@ -79,9 +73,16 @@ header {
         
     }
     .info{
-            object-fit: cover;
-            display: flex;
-            align-items: center;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        
+        a{
+            text-decoration: none;
+            color: #333;
+            margin-left: 2px;
+            font-weight: bold;
+        }
 
             a:nth-child(1) img{
                 height: 16px;
