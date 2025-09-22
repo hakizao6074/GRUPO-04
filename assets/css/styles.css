@@ -324,7 +324,7 @@ ul.breadcrumb li a:hover {
 
 .section-1 {
     display: flex;
-    background-color: #dbdbe7;
+    background-color: #ffffff;
     height: 500px;
     padding: 80px;
     justify-content: space-between;
@@ -353,9 +353,6 @@ footer {
 
 .cartoes {
     display: flex;
-    background-color: #dbdbe7;
-    border-radius: 20px;
-    height: 40px;
     align-items: center;
     justify-content: center;
 }
