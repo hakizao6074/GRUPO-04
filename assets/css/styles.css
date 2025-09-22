@@ -329,40 +329,70 @@ main{
     text-align: center;
 }
 
-ul.breadcrumb {
-    list-style: none;
+.product-filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.filter-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-list li {
+  color: #888;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.filter-list li.active {
+  color: #222;
+  font-weight: bold;
+}
+
+.filter-list li a:hover{
+    color: black;
+}
+
+.filter-btn {
+  background: #222a31;
+  color: #fff;
+  border: none;
+  padding: 7px 18px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: 0.3s;
+}
+
+.filter-btn span {
+  font-size: 13px;
+}
+
+.filter-btn:hover {
+  background: #555;
+}
+
+.imagecontainer {
     display: flex;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    transition: 0.3s ease;
+    justify-content: space-evenly;
 }
 
-ul.breadcrumb li {display: inline;} 
-
-ul.breadcrumb li+li:before { 
-  color: black;
+.imagecontainer img {
+   max-width: 100px;
 }
-
-ul.breadcrumb li a {
-    text-decoration: none;
-    color: #000000;
-    padding: 5px 10px;
-    border-radius: 3px;
-    transition: 0.3s ease;
-}
-
-ul.breadcrumb li a:hover {
-    text-decoration: none;
-    color: #0000ff;
-}
-
-
-
-
-
 
 
 
