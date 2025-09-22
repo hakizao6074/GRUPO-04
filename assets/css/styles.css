@@ -412,7 +412,7 @@ ul.breadcrumb li a:hover {
     gap: 470px;
 
     button{
-        font-size: 5px;
+        font-size: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -589,6 +589,13 @@ ul.breadcrumb li a:hover {
 
 }
 
+
+
+@media  (max-width: 767px){
+
+
+    
+}
 
 
 
