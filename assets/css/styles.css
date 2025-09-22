@@ -76,7 +76,7 @@ header {
         object-fit: cover;
         display: flex;
         align-items: center;
-        
+
         a{
             text-decoration: none;
             color: #333;
@@ -112,13 +112,14 @@ main{
         nav{
             text-align: center;            
             vertical-align: middle;
+            width: 100%;
 
             ul{
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: center;
+            justify-content: space-around;
             margin-bottom: 15px;
-            width: 100%;
             
             li{
                 list-style: none;
