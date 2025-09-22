@@ -595,18 +595,62 @@ ul.breadcrumb li a:hover {
 /* dadinho */
 
 
+.follow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaeaea;
+    gap: 20px;
+    padding: 20px;
+    max-height: 70%;
+}
 
+.prod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
 
+.input {
+  width: 400px;
+  flex: 1;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+  padding: 10px 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.submit {
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  transition: 0.3s;
+}
+
+.submit:hover {
+  color: #555;
+  border-bottom: 2px solid #555;
+}
 
 
 
 .section-1 {
     display: flex;
-    background-color: #dbdbe7;
+    background-color: #f4f4f4;
     height: 500px;
     padding: 80px;
     justify-content: space-between;
-    
+    width: 80%;
 
 }
 
