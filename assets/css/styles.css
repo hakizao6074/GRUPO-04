@@ -431,14 +431,7 @@ ul.breadcrumb li a:hover {
     list-style: none;
 }
 
-.listabest:hover{
-    li{
 
-        cursor: pointer;
-        text-decoration: underline;
-    }
-
-}
 
 .imgbes{
     display: flex;
