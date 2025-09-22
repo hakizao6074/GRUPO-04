@@ -83,7 +83,12 @@ header {
             display: flex;
             align-items: center;
 
-            a:nth-child(2) img{
+            a:nth-child(1) img{
+                height: 16px;
+                vertical-align: calc(-2px);
+            }
+
+            a img{
                 height: 22px;
                 vertical-align: calc(-4px);
             }
@@ -220,6 +225,10 @@ main{
             transition: 0.3s ease;
             height: 80px;
             cursor: pointer;
+        }
+
+        a{
+            text-decoration: none;
         }
 
         img:nth-child(3){
