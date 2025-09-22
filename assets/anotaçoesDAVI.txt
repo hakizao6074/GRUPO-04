@@ -1,0 +1,35 @@
+ <div class="alinhamento">
+            <h3>◇◇◇ CORAL ◇◇◇</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consebr <br>
+                cteturdipisicing elit. <br>
+                Corrupti, excepturi totm assumenda <br>
+                eius accusantium commodi.
+            </p>
+            <br>
+
+            <div class="icons">
+                <p><img src="/assets/img/dadinho/face.png" alt="" height="20px"></p>
+                <p><img src="/assets/img/dadinho/ista.png" alt="" height="20px"></p>
+                <p><img src="/assets/img/dadinho/twitter-logo-png_seeklogo-318424-removebg-preview.png" alt=""
+                        height="20px"></p>
+                <p><img src="/assets/img/dadinho/49408-removebg-preview.png" alt="" height="20px"></p>
+            </div> <!-- fim .icons -->
+        </div> <!-- fim .alinhamento -->
+
+        <div class="cat">
+            <div class="catalogo">
+                <h3>CATALOGS</h3>
+                <p>Lorem ipsum br  <br> dolor sit ametium e</p>
+            </div>
+
+            <div class="about">
+                <h3>ABOUT US</h3>
+                <p>Lorem ipsum br  <br> dolor sit ametium e</p>
+            </div>
+
+            <div class="custome">
+                <h3>CUSTOMER SERVICES</h3>
+                <p>Lorem ipsum br  <br> dolor sit ametium e</p>
+            </div>
+        </div>
