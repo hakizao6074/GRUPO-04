@@ -580,6 +580,14 @@ ul.breadcrumb li a:hover {
     padding: 5px 8px;
 }
 
+.precobsto{
+    position: relative;
+    right: 11px;
+    font-weight: bold;
+    color: black;
+
+}
+
 
 
 
