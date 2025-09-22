@@ -483,8 +483,6 @@ main{
   align-items: center;
   gap: 7px;
   transition: 0.3s;
-  position: absolute;
-    right:19%;
 }
 
 .filter-btn span {
