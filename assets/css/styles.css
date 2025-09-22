@@ -557,6 +557,7 @@ ul.breadcrumb li a:hover {
     position: relative;
     right: 11px;
     font-weight: bold;
+    color: tomato;
 }
 
 .inbst{
@@ -578,6 +579,14 @@ ul.breadcrumb li a:hover {
     font-size: 12px;
     font-weight: bold;
     padding: 5px 8px;
+}
+
+.precobsto{
+    position: relative;
+    right: 11px;
+    font-weight: bold;
+    color: black;
+
 }
 
 
