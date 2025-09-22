@@ -322,7 +322,7 @@ main{
 
 }
     
-@media (max-width: 768px) {
+@media (max-width: 930px) {
         .collection {
             flex-direction: column;
         align-items: center;
