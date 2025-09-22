@@ -412,6 +412,7 @@ ul.breadcrumb li a:hover {
     gap: 470px;
 
     button{
+        font-size: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -556,24 +557,23 @@ ul.breadcrumb li a:hover {
     position: relative;
     right: 11px;
     font-weight: bold;
-    color: rgb(233, 99, 9);
 }
 
 .inbst{
      position: absolute;  
     top: 10px;           
     left: 1px;         
-    background-color: rgb(247, 111, 111);  
+    background-color: rgb(0, 0, 0);  
     color: white;
     font-size: 12px;
     font-weight: bold;
     padding: 5px 8px;
 }
 .inbsti{
-     position: absolute;  
+    position: absolute;  
     top: 10px;           
     left: 1px;         
-    background-color: rgb(0, 0, 0);  
+    background-color: rgb(221, 88, 0);
     color: white;
     font-size: 12px;
     font-weight: bold;
