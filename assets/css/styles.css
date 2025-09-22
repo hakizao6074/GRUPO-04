@@ -51,6 +51,8 @@ header {
             align-items: center;
             cursor: default;
             
+            h2{
+                margin: 0px 13px 0px 10px;
             h3{
                 margin: 0px 13px 0px 12px;
                 font-family: "Bodoni Moda", serif;
@@ -93,9 +95,7 @@ main{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 500px;
-        padding: 0;
-        margin: 0;
+        height: auto;
         
         
         nav{
@@ -111,7 +111,7 @@ main{
             
             li{
                 list-style: none;
-                margin-right: 20px;
+                gap: 10px;
                 cursor: pointer;
             }
             
@@ -120,7 +120,11 @@ main{
                 text-decoration: none;
                 color: #333333cf;
                 margin-left: 2px;
-            font-weight: bold;
+                font-weight: bold;
+
+                &:hover{
+                    text-decoration-line: underline;
+                }
         }
     }
 } 
@@ -247,10 +251,9 @@ main{
         margin-right: 10px;
         
         img{
-            max-height: 500px;
-            max-width: 500px;
+            height: 500px;
+            width: 500px;
         }
-        
         &::before{
             content: "EXPLORE NEW AND POPULAR STYLES";
             writing-mode: vertical-rl;
@@ -261,7 +264,8 @@ main{
             background-color: white;
             padding: 10px;
             z-index: 2;
-        }
+    }
+        
     }
 
     .outros{
@@ -275,8 +279,8 @@ main{
         
         img{
             object-fit: cover;
-            height: 244px;
-            width: 247px;
+            height: 245px;
+            width: 245px;
         }
     }
     
@@ -287,12 +291,97 @@ main{
 
 
     
+@media (max-width: 800px) {
+    .main-section span{
+        display: none;
+    }
     
+}
+
+@media (max-width: 920px) {
+    .main-section li{
+        margin-top: 5px;
+        line-height: 15px;
+    }
+
+}
     
+@media (max-width: 768px) {
+        .collection {
+            flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        .shop {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img {
+            margin: 0;
+            height: auto;
+            width: 80%;
+        }
+    }
+
+    .main-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav .logos {
+            align-items: center;
+            text-align: center;
+        
+    } 
+
+    .imagens {
+        flex-direction: column;
+    }
+
+    .imagens .principal, .imagens .outros {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagens .outros {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header nav .center {
+        align-items: center;
+    }
+
+    .main-section nav ul {
+        gap: 10px;
+    }
+    
+}
+
+@media (max-width: 1070px) {
+    .imagens {
+        flex-direction: column;
+
+        .outros {
+            margin-left: 30px;
+        }
+        .principal{
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
 
 
-
-
+    }
+    
+}
 
 
 
