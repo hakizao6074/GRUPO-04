@@ -855,8 +855,23 @@ main{
 
 }
 
+@media (max-width: 860px) {
+    .imgbes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; 
+    
+        align-items: center;
+    }
 
-
+    .cbests {
+        gap: 10px;
+    }
+    
+    .listabest {
+        gap: 10px;
+    }
+}
 
 
 /* dadinho */
