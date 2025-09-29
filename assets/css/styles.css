@@ -65,6 +65,7 @@ header .all nav .info{
         object-fit: cover;
         display: flex;
         align-items: center;
+        gap: 8px;
         
         a{
             text-decoration: none;
@@ -75,6 +76,7 @@ header .all nav .info{
         
         a:nth-child(1) img{
             height: 16px;
+            margin-right: 3px;
             vertical-align: calc(-2px);
         }
         
@@ -82,19 +84,19 @@ header .all nav .info{
             height: 22px;
             vertical-align: calc(-4px);
         }
+
+
     }
-    
-    main{
+            
+    main .main-section{
+        background-image: url(../img/teteu/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }   
         
-        .main-section{
-            background-image: url(../img/teteu/background.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: auto;
-        
-        
-        nav{
+    .main-section nav{
             text-align: center;            
             vertical-align: middle;
             width: 100%;
@@ -110,6 +112,10 @@ header .all nav .info{
                 list-style: none;
                 gap: 10px;
                 cursor: pointer;
+            }
+
+            .diff{
+                display: none;
             }
             
             a{
@@ -128,14 +134,14 @@ header .all nav .info{
 
     
     
-    .collection {
-
+    .main-section .collection {
         display: flex;
         justify-content: space-evenly;
         padding-top: 20px;
         align-items: center;
-
-        .shop{
+    }
+    
+    .collection .shop{
             display: flex;
             gap: 20px;
             margin-bottom: 20px;
@@ -171,7 +177,7 @@ header .all nav .info{
     
 
 
-    .img{
+    .main-section .img{
         width: 300px;
         height: 420px;
         margin-bottom: 20px;
@@ -188,11 +194,8 @@ header .all nav .info{
         }
     }
     
-}
-}
 
-
-.nav{
+main .nav{
     background-color: white;
     width: 100%;
     height: auto;
@@ -200,8 +203,8 @@ header .all nav .info{
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    .logos{
+}
+    .nav .logos{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -231,12 +234,9 @@ header .all nav .info{
     }
 }
 
-}
-    
 
 
-
-.imagens{
+main .imagens{
     background-color: white;
     padding: 3px;
     display: flex;
@@ -244,8 +244,8 @@ header .all nav .info{
     height: auto;
     align-items: center;
     justify-content: center;
-
-    .principal{
+}
+    .imagens .principal{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -269,7 +269,7 @@ header .all nav .info{
         
     }
 
-    .outros{
+    .imagens .outros{
         display: flex;
         gap: 10px;
         justify-content: center;
@@ -285,10 +285,6 @@ header .all nav .info{
         }
     }
     
-}
-
-
-}
 
 
 
@@ -320,6 +316,10 @@ header .all nav .info{
     .main-section span{
         display: none;
     }
+
+    .main-section nav ul .diff{
+        display: inline-block;
+    }
     
 }
 
@@ -336,6 +336,8 @@ header .all nav .info{
             flex-direction: column;
             align-items: center;
             text-align: center;
+            height: auto;
+            padding-bottom: 10px;
         
         .shop {
             justify-content: center;
@@ -345,7 +347,6 @@ header .all nav .info{
         .img {
             margin: 0;
             height: auto;
-            width: 80%;
         }
     }
 
@@ -365,6 +366,13 @@ header .all nav .info{
 }
 
 @media (max-width: 480px) {
+
+    .main-section nav ul{
+        overflow-x: scroll;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
     header nav {
         align-items: center;
         flex-direction: column;
@@ -397,6 +405,30 @@ header .all nav .info{
     
 }
 
+@media (max-width: 552px) {
+
+    .main-section nav ul li a{
+        font-size: 10px;
+        line-height: 3px;
+    }
+
+    .imagens .principal img{
+        height: 300px;
+        width: 300px;
+    }
+    .imagens .outros {
+        height: 300px;
+        width: 300px;
+        align-content: center;
+        margin-left: 40px;
+        margin-top: -15px;
+        
+        img{
+            height: 145px;
+            width: 145px;
+        }
+    }
+}
 
 
 
@@ -429,6 +461,7 @@ header .all nav .info{
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
+    padding-bottom: 6pc;
 }
 
 .product-filter-bar {
@@ -464,6 +497,11 @@ header .all nav .info{
 .filter-list li.active {
   color: #222;
   font-weight: bold;
+}
+
+.filter-list li a{
+    text-decoration: none;
+    color: #333;
 }
 
 .filter-list li a:hover{
@@ -623,10 +661,10 @@ header .all nav .info{
     width: 100%;
     display: flex;
     justify-content: right;
-    background-image: url(../img/teteu/zara.png);
-    background-size: 130% ;
+    background-image: url(../img/teteu/zara.svg);
+    background-size: cover;
     background-attachment: fixed;
-    background-position: center right;
+    background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
 
@@ -635,13 +673,12 @@ header .all nav .info{
         flex-direction: column;
         justify-content: center;
         gap: 30px;
-        width: 40pc;
+        width: 45pc;
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position-x: 95%;
-        background-position-y: 20%;
-        background-size: 30pc;
-        background-image: url(../img/teteu/zara-logo.png);
+        background-position-x: 100%;
+        background-position-y: 25%;
+        background-size: 40pc;
+        background-image: url(../img/teteu/zara-logo-opacity.png);
 
         img{
             width: 250px;
@@ -664,6 +701,11 @@ header .all nav .info{
             h3{
                 font-weight: 300;    
             }
+
+
+            &:hover{
+                background-color: #b1b1b1;
+            }
         }
     }
 }
@@ -673,7 +715,10 @@ header .all nav .info{
 @media (max-width: 1308px){
     .gigio{
         background-position: center;
+        background-size: cover;
+        background-attachment: local;
         justify-content: center;
+        background-image: url(../img/teteu/zara-media.png);
 
         .img{
             display: none;
@@ -688,6 +733,17 @@ header .all nav .info{
     }
 }
 
+@media (max-width: 438px) {
+    .gigio .text p{
+        font-size: 14px;
+        box-shadow: 2px #000;
+    }
+}
+
+
+
+
+
 
 
 
@@ -696,6 +752,8 @@ header .all nav .info{
 /* lulu */
 
 .bestsell{
+    padding-top: 6pc;
+
     h2{
         text-align: center;
         padding: 20px;
