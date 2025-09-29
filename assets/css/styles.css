@@ -795,6 +795,12 @@ main .imagens{
     list-style: none;
     padding: 0;
     margin: 0;
+    color: #3a3a3a;
+    
+    b{
+        color: #1a1818;
+    }
+
 }
 
 .listabest li:hover {
