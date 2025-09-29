@@ -1148,6 +1148,11 @@ footer {
   }
 }
 
+   .img-2 {
+    height: 130px;
+  }
+
+
 @media (max-width: 768px) {
   .input {
     width: 90%;
@@ -1192,7 +1197,7 @@ footer {
   }
 
   .img-2 {
-  height: 55px;
+  height: 75px;
   display: flex;
   flex-wrap: wrap;
 
@@ -1219,5 +1224,11 @@ footer {
   .cat {
     min-width: 100%;
     gap: 15px;
+  }
+    .img-2 {
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+
   }
 }
