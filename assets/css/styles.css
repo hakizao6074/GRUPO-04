@@ -23,90 +23,75 @@ header {
     background-color: #33333309;
     padding: 0;
     padding-top: 25px;
+}
 
-        .all{
-            width: 100%;
-            text-decoration: none;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            
-            nav{
-                width: 70%;
-                box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4);
-                align-items: center;
-                justify-content: space-between;
-                display: flex;
-        
-                
-                .lupa{
-                    border: none;
-                    cursor: pointer;
-                    background-color: #00000000;
+header .all{
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
-                    img{
-                        height: 20px;
-                        margin-right: 10px;
-                }
-            }
-        
-        .center{
-            display: flex;
-            align-items: center;
-            cursor: default;
-            
-            h2{
-                margin: 0px 13px 0px 10px;
-            h3{
-                margin: 0px 13px 0px 12px;
-                font-family: "Bodoni Moda", serif;
-            }
-        }
-        
-        
-        
-        img{
-            height: 15px;
-            margin-left: 3px;
-            margin-right: 3px;
-        }
-        
+header .all nav{
+    width: 70%;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+header .all nav .lupa{
+    border: none;
+    cursor: pointer;
+    background-color: #00000000;
+    
+    img{
+        height: 20px;
+        margin-right: 10px;
     }
-    .info{
+}
+
+header .all nav .center{
+        display: flex;
+        align-items: center;
+        cursor: default;
+    }
+        
+        
+        
+    
+header .all nav .info{
         object-fit: cover;
         display: flex;
         align-items: center;
-
+        
         a{
             text-decoration: none;
             color: #333;
             margin-left: 2px;
             font-weight: bold;
         }
-
-            a:nth-child(1) img{
-                height: 16px;
-                vertical-align: calc(-2px);
-            }
-
-            a img{
-                height: 22px;
-                vertical-align: calc(-4px);
-            }
+        
+        a:nth-child(1) img{
+            height: 16px;
+            vertical-align: calc(-2px);
         }
-}
-}
-}
-
-main{
-
-
-    .main-section{
-        background-image: url(../img/teteu/background.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: auto;
+        
+        a img{
+            height: 22px;
+            vertical-align: calc(-4px);
+        }
+    }
+    
+    main{
+        
+        .main-section{
+            background-image: url(../img/teteu/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
         
         
         nav{
@@ -221,7 +206,7 @@ main{
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 15px;
-        width: 90%;
+        width: 100%;
         
         img{
             transition: 0.3s ease;
@@ -306,6 +291,30 @@ main{
 }
 
 
+
+
+@media (max-width: 634px) {
+    .nav {
+
+        margin-bottom: 0;
+        gap: 0;
+        
+        .logos{
+            flex-direction: column;
+            align-items: center;
+
+
+            img:nth-child(1){
+                margin-bottom: -30px;
+            }
+
+            img:nth-child(5){
+                margin-top: -20px;
+            }
+        }
+    }
+}
+
     
 @media (max-width: 800px) {
     .main-section span{
@@ -325,8 +334,8 @@ main{
 @media (max-width: 930px) {
         .collection {
             flex-direction: column;
-        align-items: center;
-        text-align: center;
+            align-items: center;
+            text-align: center;
         
         .shop {
             justify-content: center;
@@ -348,22 +357,11 @@ main{
     .nav .logos {
             align-items: center;
             text-align: center;
+            margin: 0;
         
     } 
 
-    .imagens {
-        flex-direction: column;
-    }
-
-    .imagens .principal, .imagens .outros {
-        width: 100%;
-        height: auto;
-    }
-
-    .imagens .outros {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
+   
 }
 
 @media (max-width: 480px) {
@@ -618,35 +616,77 @@ main{
 
 
 
-/*Giovani Zara Imagens*/
+/*teteu Zara Imagens*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 .gigio{
-    background-color: rgba(0, 0, 0, 0.99);
-    height: 30pc;
+    height: 50pc;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
+    background-image: url(../img/teteu/zara.png);
+    background-size: 130% ;
+    background-attachment: fixed;
+    background-position: center right;
+    object-fit: cover;
+    background-repeat: no-repeat;
 
     .text{
-        text-align: left;
-        color: white;
-        h1{
-            opacity: 0.7;
-            font-size: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        width: 40pc;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 95%;
+        background-position-y: 20%;
+        background-size: 30pc;
+        background-image: url(../img/teteu/zara-logo.png);
+
+        img{
+            width: 250px;
+            height: 80px;
+        }
+
+        p{
+            line-height: 2.2pc;
+            color: white;
+            font-size: larger;
+        }
+
+        button{
+            font-size: 17px;
+            height: 50px;
+            border: none;
+            border-radius: 0;
+            width: 170px;
+            
+            h3{
+                font-weight: 300;    
+            }
         }
     }
 }
 
 
 
+@media (max-width: 1308px){
+    .gigio{
+        background-position: center;
+        justify-content: center;
 
-
-
-
-
-
-
-
-
+        .img{
+            display: none;
+        }
+        .text{
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            background-image: none;
+        }
+    }
+}
 
 
 
