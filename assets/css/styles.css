@@ -949,12 +949,13 @@ main .imagens{
     font-weight: bold;
     color: black;
 
+
 }
-.soal{
-    font-size: 9px;
+.soall{
+    font-size: 9.5px;
 }
 
-.soal:hover{
+.soall:hover{
     background-color: rgb(80, 80, 80);
 }
 
