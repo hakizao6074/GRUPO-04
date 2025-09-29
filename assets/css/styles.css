@@ -798,20 +798,18 @@ main .imagens{
 
 }
 
-.listabest{
+ .listabest {
     display: flex;
     gap: 20px;
     justify-content: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.listabest:hover{
-    li{
-
-        cursor: pointer;
-        text-decoration: underline;
-    }
-
+.listabest li:hover {
+    cursor: pointer;
+    color: black;
 }
 
 .imgbes{
@@ -961,6 +959,14 @@ main .imagens{
     font-weight: bold;
     color: black;
 
+
+}
+.soall{
+    font-size: 9.5px;
+}
+
+.soall:hover{
+    background-color: rgb(80, 80, 79);
 }
 
 @media (max-width: 860px) {
