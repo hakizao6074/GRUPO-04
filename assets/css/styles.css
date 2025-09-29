@@ -634,16 +634,26 @@ main .imagens{
     }
     .imgbes-flex .product-card {
         width: calc(50% - 20px);
+        
     }
+    .imgbes-flex  .product-card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
 }
 
-/* Mobile: 1 per row */
+/* Mobile: 2 per row */
 @media (max-width: 600px) {
     .imgbes-flex {
         gap: 10px;
     }
-    .imgbes-flex .product-card {
+    .imgbes-flex  .product-card img {
         width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 }
 
