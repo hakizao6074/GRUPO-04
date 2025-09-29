@@ -1150,8 +1150,8 @@ footer {
 
   .submit {
     width: 90%;
-    text-align: center;
     font-size: 14px;
+    text-align: left;
   }
 
   footer {
@@ -1172,6 +1172,26 @@ footer {
     height: auto;
     padding: 5px 10px;
   }
+
+  .img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .follow {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .img-2 {
+  height: 55px;
+  display: flex;
+  flex-wrap: wrap;
+
+  }
+ 
 }
 
 @media (max-width: 480px) {
@@ -1194,4 +1214,3 @@ footer {
     min-width: 100%;
     gap: 15px;
   }
-}
