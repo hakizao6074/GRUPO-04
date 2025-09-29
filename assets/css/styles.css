@@ -608,6 +608,8 @@ main{
     }
     .imgbes-flex .product-card {
         width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 }
 
