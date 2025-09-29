@@ -34,7 +34,7 @@ header .all{
 }
 
 header .all nav{
-    width: 70%;
+    width: 74%;
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4);
     align-items: center;
     justify-content: space-between;
@@ -92,29 +92,31 @@ header .all nav .info{
         background-image: url(../img/teteu/background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: auto;
-    }   
-        
-    .main-section nav{
-            text-align: center;            
-            vertical-align: middle;
-            width: 100%;
+    }
 
-            ul{
+    .main-section nav{
+        text-align: center;            
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        
+        ul{
+            width: 80%;
+            margin-bottom: 15px;
+            text-align: center;
             display: flex;
             align-items: center;
-            justify-content: center;
-            justify-content: space-around;
-            margin-bottom: 15px;
+            align-content: center;
+            justify-content: space-evenly;
             
-            li{
-                list-style: none;
-                gap: 10px;
-                cursor: pointer;
-            }
 
-            .diff{
+                li{
+                    list-style: none;
+                    gap: 10px;
+                    cursor: pointer;
+                }
+                
+                .diff{
                 display: none;
             }
             
@@ -122,7 +124,6 @@ header .all nav .info{
                 font-size: 12px;
                 text-decoration: none;
                 color: #333333cf;
-                margin-left: 2px;
                 font-weight: bold;
 
                 &:hover{
@@ -130,6 +131,7 @@ header .all nav .info{
                 }
         }
     }
+}
 } 
 
     
@@ -142,7 +144,7 @@ header .all nav .info{
     }
     
     .collection .shop{
-            display: flex;
+        display: flex;
             gap: 20px;
             margin-bottom: 20px;
             padding: 10px;
