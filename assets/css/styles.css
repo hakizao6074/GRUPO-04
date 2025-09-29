@@ -1076,7 +1076,6 @@ footer {
 
 .cartoes {
     display: flex;
-    background-color: #dbdbe7;
     border-radius: 20px;
     height: 40px;
     align-items: center;
