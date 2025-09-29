@@ -1003,11 +1003,28 @@ main .imagens{
     flex-direction: column;
     align-items: center;
     background-color: #eaeaea;
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
     max-height: 70%;
+}
+
+.follow .prod .labubu .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+
+.sla{
+    display: flex;
+    gap: 20px;
+    width: 36%;
+    justify-content: center;
+}
     
-    .prod {
+    .follow .prod {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1015,19 +1032,19 @@ main .imagens{
         height: 300px;
     }
     
-    .input {
-        width: 400px;
-        flex: 1;
+    .follow .sla .input {
+        width: 80%;
         border: none;
         border-bottom: 2px solid #000;
-  background: transparent;
-  padding: 10px 5px;
-  font-size: 16px;
-  outline: none;
-}
+        background: transparent;
+        padding: 10px 5px;
+        font-size: 16px;
+        outline: none;
+    }
 
-.submit {
+.follow .sla .submit {
     border: none;
+    width: auto;
     border-bottom: 2px solid #000;
     background: transparent;
     font-size: 14px;
@@ -1035,13 +1052,13 @@ main .imagens{
     letter-spacing: 1px;
     cursor: pointer;
     padding: 10px 5px;
+    text-align: left;
     transition: 0.3s;
-}
-
-.submit:hover {
-    color: #555;
-    border-bottom: 2px solid #555;
-}
+    
+    &:hover {
+        color: #555;
+        border-bottom: 2px solid #555;
+    }
 }
 
 
@@ -1170,6 +1187,10 @@ footer {
     text-align: left;
   }
 
+  .sla{
+    width: 80%;
+  }
+
   footer {
     flex-direction: column;
     gap: 10px;
@@ -1189,19 +1210,9 @@ footer {
     padding: 5px 10px;
   }
 
-  .img {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
   .follow {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
+   text-align: center; 
   }
 
   .img-2 {
@@ -1221,6 +1232,7 @@ footer {
 
   .input, .submit {
     width: 100%;
+    text-align: center;
     font-size: 13px;
   }
 
