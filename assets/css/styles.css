@@ -1191,6 +1191,8 @@ footer {
 
   .img {
     display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -1198,7 +1200,8 @@ footer {
     display: flex;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
   }
 
   .img-2 {
